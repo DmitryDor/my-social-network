@@ -14,9 +14,10 @@ grid-template-rows: 60 px 1fr; /*сколько всего строк у нас*
 .header {
     grid-area: h;
   background-color: greenyellow;
+    height: 80px;
 }
 .header img {
-  width: 30px;
+  width: 45px;
 }
 
 .nav {
