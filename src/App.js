@@ -5,6 +5,7 @@ import Navbar from "./compoments/Navbar";
 import Profile from "./compoments/Profile";
 
 
+
 const App = () => {
     return (
         <div className="app-wrapper">
