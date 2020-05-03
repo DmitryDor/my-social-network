@@ -4,6 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 
 const Profile = () => {
+
     return (
         <div className={classes.content}>
             <div>
@@ -12,7 +13,7 @@ const Profile = () => {
             <div>
                 ava+discription
             </div>
-            <MyPosts/>
+            <MyPosts />
         </div>
     );
 }

@@ -3,7 +3,7 @@ import classes from './MyPosts.module.css';
 import Post from "./Post/Post";
 
 
-const MyPosts = () => {
+const MyPosts = (props) => {
     return (
 
         <div>
@@ -12,10 +12,10 @@ const MyPosts = () => {
                 <textarea></textarea>
                 <button>Add post</button>
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post message= "Hi, how are you?" like="15"/>
+            <Post message="It's my ferst post!" like = "20"/>
+            <Post message= "My name's Dmitry!" like ="30"/>
+            <Post like= "50"/>
         </div>
 
     );
